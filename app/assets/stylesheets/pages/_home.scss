@@ -5,6 +5,9 @@
   align-items: center;
   height: 100vh;
   width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
   background-image: linear-gradient(rgba(0,0,0,0.3) 50%, rgba(90, 100, 91,0.2)), url("landing.jpg");
   background-size: cover !important;
 }
