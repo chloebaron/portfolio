@@ -15,7 +15,7 @@
   margin: 0;
   position: absolute;
   left: 20px;
-  color: rgb(35%, 39%, 36%);
+  color: white;
   font-weight: bold;
 }
 
@@ -51,14 +51,14 @@
 .navbar-wagon-dropdown-menu li > a {
   transition: color 0.3s ease;
   font-weight: lighter !important;
-  color: rgb(90, 100, 91) !important;
+  color: white !important;
   font-size: 24px !important;
   line-height: 22px !important;
   padding: 10px 20px;
 }
 .navbar-wagon-dropdown-menu li > a:hover {
   background: transparent !important;
-  color: white !important;
+  color: rgb(35%, 39%, 36%) !important;
 }
 .navbar-wagon-dropdown-menu:before {
   content: ' ';

@@ -5,20 +5,29 @@
   align-items: center;
   height: 100vh;
   width: 100%;
-  position: absolute;
+
   top: 0;
-  z-index: 1;
+
   background-image: linear-gradient(rgba(0,0,0,0.3) 50%, rgba(90, 100, 91,0.2)), url("landing.jpg");
   background-size: cover !important;
 }
 
 .landing-content {
   text-align: center;
-  width: 35%;
+  max-width: 35%;
   h1 {
   font-size: 48px;
   font-weight: lighter;
   margin-bottom: 10px;
-  color: #5A645B;
+  //color: #5A645B;
+  color: white;
+  }
+}
+
+.about {
+  background: rgba(0,0,0,0.9);
+  height: 100vh;
+  h3 {
+    margin: 0;
   }
 }
