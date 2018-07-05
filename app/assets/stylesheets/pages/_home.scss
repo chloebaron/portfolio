@@ -1,9 +1,13 @@
 // Specific CSS for your home-page
-.home {
-  position: absolute;
+.background {
+  background-position: fixed;
   top: 0;
   z-index: 1;
   width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.3) 50%, rgba(90, 100, 91,0.2)), url("landing.jpg");
+  background-size: cover !important;
+  // position: fixed;
 }
 
 .landing {
@@ -11,8 +15,6 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: linear-gradient(rgba(0,0,0,0.3) 50%, rgba(90, 100, 91,0.2)), url("landing.jpg");
-  background-size: cover !important;
 }
 
 .landing-content {
@@ -30,6 +32,14 @@
 .about {
   background: rgba(0,0,0,0.9);
   height: 100vh;
+  h3 {
+    margin: 0;
+  }
+}
+
+.projects {
+  height: 100vh;
+  background: rgba(0,0,0,0.1);
   h3 {
     margin: 0;
   }
