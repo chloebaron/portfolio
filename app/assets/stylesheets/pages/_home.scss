@@ -1,13 +1,16 @@
 // Specific CSS for your home-page
+.home {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
 .landing {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  width: 100%;
-
-  top: 0;
-
   background-image: linear-gradient(rgba(0,0,0,0.3) 50%, rgba(90, 100, 91,0.2)), url("landing.jpg");
   background-size: cover !important;
 }
