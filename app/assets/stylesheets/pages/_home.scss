@@ -1,12 +1,9 @@
 // Specific CSS for your home-page
-.background {
-  background-position: fixed;
+.wrapper {
+  position: absolute;
   top: 0;
-  z-index: 1;
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(0,0,0,0.3) 50%, rgba(90, 100, 91,0.2)), url("landing.jpg");
-  background-size: cover !important;
   // position: fixed;
 }
 
@@ -15,6 +12,14 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  min-height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -99;
+  background-image: linear-gradient(rgba(0,0,0,0.5) 100%, rgba(90, 100, 91,0.2)), url("landing.jpg");
+  background-size: cover !important
 }
 
 .landing-content {
@@ -26,12 +31,18 @@
   margin-bottom: 10px;
   //color: #5A645B;
   color: white;
+  position:relative;
   }
 }
 
 .about {
-  background: rgba(0,0,0,0.9);
+  color: white;
+  margin-top:100%;
+  background: black;
   height: 100vh;
+  min-height: 100%;
+  z-index:1000;
+  position:relative;
   h3 {
     margin: 0;
   }
@@ -39,7 +50,10 @@
 
 .projects {
   height: 100vh;
-  background: rgba(0,0,0,0.1);
+  min-height: 100%;
+  z-index:1000;
+  color: white;
+  background: black;
   h3 {
     margin: 0;
   }
