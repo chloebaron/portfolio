@@ -41,11 +41,31 @@
   background: black;
   height: 100vh;
   min-height: 100%;
-  z-index:1000;
+  z-index:1;
   position:relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   h3 {
     margin: 0;
   }
+}
+
+.about-me {
+  flex: 0 1 30%;
+  min-width: 20%;
+  li {
+    font-weight: lighter;
+    padding: 5px;
+  }
+}
+
+.about-icons {
+  width: 10%;
+}
+
+.intro h2 {
+  text-align: center;
 }
 
 .projects {
