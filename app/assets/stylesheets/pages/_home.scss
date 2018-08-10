@@ -19,20 +19,28 @@
   top: 0;
   left: 0;
   z-index: -99;
-  background-image: linear-gradient(rgba(0,0,0,0.5) 100%, rgba(90, 100, 91,0.2)), url("landing.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.8) 100%, rgba(90, 100, 91,0.5)), url("landing.jpg");
   background-size: cover !important
 }
 
 .landing-content {
   text-align: center;
-  max-width: 35%;
+  width: auto;
+  max-width: 50%;
   h1 {
-  font-size: 48px;
+  font-size: 76px;
+  font-weight: lighter;
+  //color: #5A645B;
+  color: white;
+  position:relative;
+  }
+  h2 {
+  font-size: 42px;
   font-weight: lighter;
   margin-bottom: 10px;
   //color: #5A645B;
   color: white;
-  position:relative;
+  position: relative;
   }
 }
 
@@ -43,7 +51,7 @@
   height: 100vh;
   min-height: 100%;
   width: 100%;
-  z-index:1;
+  z-index: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,32 +61,30 @@
   }
 }
 
-.about-content {
-
+.about-row {
+  display: flex;
 }
 
 .about-me {
-  flex: 0 1 30%;
+  flex: 0 1 60%;
   min-width: 20%;
   li {
     font-weight: lighter;
     padding: 5px;
+    font-size: 20px;
   }
 }
 
 .about-icons {
-  width: 10%;
+  width: 35%;
   display: flex;
   flex-direction: column;
-  font-size: 56px;
+  font-size: 72px;
   align-items: center;
+  justify-content: center;
   .fas {
-    margin: 10px 0;
+    margin: 30px 0;
   }
-}
-
-.intro h2 {
-  text-align: center;
 }
 
 .projects {
