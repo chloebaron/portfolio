@@ -68,7 +68,8 @@
 .about-me {
   flex: 0 1 60%;
   min-width: 20%;
-  li {
+  width: 900px;
+  p {
     font-weight: lighter;
     padding: 5px;
     font-size: 20px;
@@ -87,13 +88,48 @@
   }
 }
 
-.projects {
+.skills {
   height: 100vh;
   min-height: 100%;
   z-index:1000;
   color: white;
   background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   h3 {
     margin: 0;
+  }
+}
+
+.skills-content {
+  font-size: 20px;
+  font-weight: lighter;
+  border: 5px solid;
+  padding: 20px 40px;
+  width: 450px;
+}
+
+.contact {
+  height: 100vh;
+  min-height: 100%;
+  z-index:1000;
+  color: white;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h3 {
+    margin: 0;
+  }
+}
+
+.contact-content {
+  font-size: 20px;
+  font-weight: lighter;
+  width: 450px;
+  a {
+    text-decoration: none;
+    color: white;
   }
 }
