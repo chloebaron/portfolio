@@ -1,10 +1,9 @@
 // Specific CSS for your home-page
 .wrapper {
   position: absolute;
-  top: 0;
-  width: 100%;
+  // top: 0;
   height: 100vh;
-  // position: fixed;
+  width: 100%;
 }
 
 .landing {
@@ -27,6 +26,7 @@
   text-align: center;
   width: auto;
   max-width: 50%;
+  min-width: 300px;
   h1 {
   font-size: 76px;
   font-weight: lighter;
@@ -46,7 +46,7 @@
 
 .about {
   color: white;
-  margin-top: 100%;
+  margin-top: 100vh;
   background: black;
   height: 100vh;
   min-height: 100%;
@@ -63,21 +63,28 @@
 
 .about-row {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
 }
 
 .about-me {
-  flex: 0 1 60%;
-  min-width: 20%;
-  width: 900px;
+  flex: 1 1;
+  max-width: 900px;
+  min-width: 300px;
   p {
     font-weight: lighter;
     padding: 5px;
     font-size: 20px;
   }
+  a {
+    text-decoration: none;
+    color: white;
+  }
 }
 
 .about-icons {
-  width: 35%;
+  flex: 1 1;
   display: flex;
   flex-direction: column;
   font-size: 72px;
@@ -91,7 +98,7 @@
 .skills {
   height: 100vh;
   min-height: 100%;
-  z-index:1000;
+  z-index: 1000;
   color: white;
   background: black;
   display: flex;
@@ -125,11 +132,15 @@
 }
 
 .contact-content {
-  font-size: 20px;
+  font-size: 40px;
   font-weight: lighter;
-  width: 450px;
+  min-width: 300px;
+  text-align: center;
   a {
-    text-decoration: none;
-    color: white;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
   }
 }
+
