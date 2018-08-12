@@ -1,8 +1,5 @@
 // Specific CSS for your home-page
-.wrapper {
-  position: absolute;
-  // top: 0;
-  height: 100vh;
+.page {
   width: 100%;
 }
 
@@ -23,22 +20,21 @@
 }
 
 .landing-content {
-  text-align: center;
-  width: auto;
-  max-width: 50%;
+  margin: 0 auto;
+  max-width: 65%;
   min-width: 300px;
+  text-align: center;
   h1 {
   font-size: 76px;
   font-weight: lighter;
-  //color: #5A645B;
   color: white;
   position:relative;
+  text-align: center;
   }
   h2 {
   font-size: 42px;
   font-weight: lighter;
   margin-bottom: 10px;
-  //color: #5A645B;
   color: white;
   position: relative;
   }
@@ -50,7 +46,7 @@
   background: black;
   height: 100vh;
   min-height: 100%;
-  width: 100%;
+  // width: 100%;
   z-index: 1;
   display: flex;
   justify-content: center;
@@ -66,7 +62,7 @@
   align-items: center;
   justify-content: center;
   padding: 30px;
-  max-height: 100vh;
+  height: auto;
 }
 
 .about-me {
@@ -135,7 +131,7 @@
 .contact-content {
   font-size: 40px;
   font-weight: lighter;
-  min-width: 300px;
+  // min-width: 300px;
   text-align: center;
   a {
   text-align: center;
