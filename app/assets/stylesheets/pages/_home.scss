@@ -1,6 +1,10 @@
-// Specific CSS for your home-page
-.page {
-  width: 100%;
+@viewport {
+  zoom: 1.0;
+  width: device-width;
+}
+
+.wrapper {
+  min-width: 320px;
 }
 
 .landing {
@@ -8,21 +12,21 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  min-height: 100vh;
+  // min-height: 100%;
   width: 100%;
+  min-width: 320px;
   position: fixed;
   margin-bottom: 5px;
   top: 0;
   left: 0;
   z-index: -99;
   background-image: linear-gradient(rgba(0,0,0,0.8) 100%, rgba(90, 100, 91,0.5)), url("landing.jpg");
-  background-size: cover !important
+  background-size: cover !important;
 }
 
 .landing-content {
   margin: 0 auto;
   max-width: 65%;
-  min-width: 300px;
   text-align: center;
   h1 {
   font-size: 76px;
@@ -44,9 +48,9 @@
   color: white;
   margin-top: 100vh;
   background: black;
-  height: 100vh;
-  min-height: 100%;
-  // width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
   z-index: 1;
   display: flex;
   justify-content: center;
@@ -93,8 +97,9 @@
 }
 
 .skills {
-  height: 100vh;
-  min-height: 100%;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
   z-index: 1000;
   color: white;
   background: black;
@@ -110,8 +115,10 @@
   font-size: 20px;
   font-weight: lighter;
   border: 5px solid;
-  padding: 20px 40px;
-  width: 450px;
+  padding: 20px 60px;
+  // width: 450px;
+  // min-width: 320px;
+
 }
 
 .contact {
